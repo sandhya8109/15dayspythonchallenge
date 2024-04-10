@@ -1,0 +1,15 @@
+import random
+human = int(input('what do you chose? type 0 for rock, 1 for paper or 2 for scissor.\n'))
+computer = random.randint(0,2)
+print(f"computer choose {computer}")
+if human >= 3 or human < 0:
+    print ("you typed an invalid number, you lose") 
+elif computer == '2' and human == '0':
+          print('you wins')         
+elif human == '2' and computer == '0':
+    print('you lose')
+elif computer <  human:
+          print('you win ')       
+elif computer == human:
+    print('it a draw')   
+ 
