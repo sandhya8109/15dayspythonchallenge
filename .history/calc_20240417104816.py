@@ -1,5 +1,3 @@
-from arts import logo
-print(logo)
 calculation = True
 previous_num = None
 while calculation:
